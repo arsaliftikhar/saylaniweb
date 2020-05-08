@@ -1,0 +1,378 @@
+body
+{
+padding: 0;
+margin: 0;
+font-family: Arial;
+}
+.top
+{
+   background-color: #316dc3;
+   height: 50px;
+}
+.top .social-links
+{
+    padding: 10px;
+    float: left;
+    margin-left: 5%;
+}
+.top .social-links i
+{
+color: white;
+padding: 5px;
+margin-left: 7px;
+}
+.top .social-links i:hover
+{
+    background-color: #4086f3;
+    transition: 0.5s;
+}
+.top p
+{
+margin-left: 10%;
+color: white;
+float: left;
+}
+.top .btns
+{
+margin-left: 75%;
+}
+.top .btns a
+{
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: green;
+    font-size: 12px;
+    padding: 8px;
+    line-height: 50px;
+}
+
+
+/*this is navbar section*/
+
+
+.nav
+{
+    background-color: #f7f8fa;
+    height: 70px;
+    font-size: 14px;
+    margin-top: -14px;
+}
+.nav img
+{
+    height: 50px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 5%;
+     position: relative;
+    float: left;
+}
+.first
+{
+    background-color: grey;
+    margin-left: 20%;
+}
+.first li
+{
+    list-style: none;
+    text-align: center;
+    float: left;
+    padding: 15px;
+    border-radius: 50px;
+    height: 10px;
+    margin-top: 15px;
+    line-height: 10px;
+    color: black;
+}
+.first li:hover
+{
+    background-color: #316dc3;
+    color: #f7f8fa;
+    transition: 0.5s;
+}
+.first li:hover>.second
+{
+    display: block;
+
+}
+.second
+{
+width: 200px;
+background-color: #fcfdff;
+margin-top: 15px;
+display: none;
+}
+.second li
+{
+    margin-top: 0px;
+    margin-left: -40px;
+    border-radius: 0px;
+    float: none;
+}
+.second a
+{
+    text-decoration: none;
+}
+.second li:hover > .third
+{
+    display: block;
+}
+.third
+{
+    display: none;
+    margin-top: -25px;
+    width: 300px;
+    margin-left: 225px;
+    background-color: #fcfdff;
+}
+.third li:hover>.fourth
+{
+    display: block;
+}
+.fourth
+{
+    display: none;
+    margin-top: -25px;
+    margin-left: 325px;
+    background-color: #fcfdff;
+    width: 200px;
+}
+
+/*this is slider section*/
+.slider img
+{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    z-index: -2;
+}
+
+
+/*this is marquee*/
+.marq
+{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #316dc3;
+    color: #fcfdff;
+    padding: 5px;
+    height: 20px;
+    line-height: 20px;
+}
+#back
+{
+    background-color: #f7f8fa;
+}
+.title
+{
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-align: center;
+}
+.title b
+{
+    font-size: 36px;
+    color: #316dc3;
+}
+.title span
+{
+    font-size: 36px;
+    color: #427900;
+}
+.line-icon
+{
+    margin-left: 43%;
+}
+.line
+{
+    height: 3px;
+    width: 70px;
+    background-color: #427900;
+    float: left;
+}
+.line-icon img
+{
+    margin-top: -20px;
+    padding: 5px;
+    float: left;
+}
+.details
+{
+    width: 80%;
+    margin: 0 auto;
+    color: #929292;
+}
+.details p
+{
+    text-align: justify;
+    line-height: 30px;
+
+}
+.blue-div
+{
+    height: 300px;
+    width: 100%;
+    background-color: #2655e8;
+}
+.blue-div .section
+{
+    font-family: "Times New Roman";
+    width: 20%;
+    margin-left: 20px;
+    padding: 20px;
+    float: left;
+
+}
+.blue-div .section img
+{
+    height: 50px;
+    width: 50px;
+    margin-top: 50px;
+
+}
+.blue-div .section p
+{
+    color: white;
+    margin-top: 0px;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.blue-div .section b
+{
+    margin-top: 0px;
+    color: #fcfdff;
+}
+.blue-div .section span
+{
+    color: #00ff00;
+}
+.are-doing
+{
+    background-color: #f7f8fa;
+    height: 500px;
+    margin: 0 auto;
+    width: 90%;
+}
+.are-doing .portion
+{
+    width: 28%;
+    background-color: white;
+    box-shadow: #bbbbbb 5px 5px 30px 0px;
+    height: 170px;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+}
+.are-doing .portion p
+{
+    font-size: 24px;
+    font-family: "Times New Roman";
+    color: #316dc3;
+}
+.mission
+{
+    background-color: white;
+    height: 350px;
+}
+.mission .inside
+{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+}
+.mission .inside .inside-in
+{
+    width: 60%;
+    float: left;
+}
+.mission .inside b
+{
+    font-size: 28px;
+    font-family: "Times New Roman";
+    color: #316dc3;
+}
+.mission .inside .inside-in .sect
+{
+    background-color: #f7f8fa;
+    color: #316dc3;
+    padding: 15px;
+    float: left;
+    width: 40%;
+    margin: 10px;
+}
+.mission .inside .inside-in .sect b
+{
+    font-size: 18px;
+    padding: 15px;
+}
+.up-comming
+{
+    height: 200px;
+    width: 40%;
+    margin-left: 60%;
+}
+.gallery
+{
+    background-color: white;
+    height: 450px;
+}
+.gallery .gallery-inside
+{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+}
+.gallery .gallery-inside img
+{
+    width: 18%;
+    height: 70%;
+}
+.gallery .gallery-inside img:hover
+{
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: #bbbbbb 5px 0px 10px 5px;
+}
+.footer
+{
+    height: 300px;
+    background-color: #25272e;
+}
+.footer .foot-container
+{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer .divide
+{
+    padding: 30px;
+    height: 200px;
+    float: left;
+    width: 28%;
+}
+.footer .divide p
+{
+    color: #bbbbbb;
+    font-size: 14px;
+}
+.footer .divide i
+{
+    padding: 5px;
+    color: #427900;
+}
+
+.copyright
+{
+    height: 40px;
+    margin-top: -15px;
+    background-color: #316dd9;
+}
+.copyright p
+{
+    color: white;
+    font-size: 12px;
+    margin-left: 10%;
+    padding: 10px;
+    line-height: 20px;
+
+}
+
